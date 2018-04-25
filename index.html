@@ -1,0 +1,325 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dia Mundial De La Bicicleta</title>
+
+<!--Aqui Esta El Codigo Del Visor De imagenes -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!--Aqui Esta El Segundo Codigo Del Segundo Visor De Imagenes--> 
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temaapp1.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!-- grupo javascript-->
+<script src ="js/jquery-1.11.2.min.js"></script>
+<script src ="js/jquery.mobile-1.4.5.min.js"></script>
+<!-- <script src ="js/acciones.js"></script>-->
+<script src ="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/Imagen_3.jpg')">
+
+<div data-role="page" id "Principal" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Dia Mundial De La Bicicleta</h1>
+</div>
+<div data-role="main" class="ul-content">
+ <div data-role="collapsible" data-content-theme="false">
+  <h1> Imagen Conmemorativa </h1>
+   <div>
+   <p> Primera Bicicleta Del Mundo </p>
+   <br>
+   </div>
+   <div> 
+    <img src="imagenes/fotoperfil.png" width="25%" height= "25%">
+    </div>
+    </div>
+    </div>
+<div>
+ <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Historia De La Bicicleta</h2>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Utilización Como Medio De Transporte</h2>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+  <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Tipos De Bicicletas</h2>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Las 5 Marcas Mas Importantes</h2>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>¿Por Que Se Celebra El Dia Mundial De La Bicicleta?</h2>
+   </a>
+   </li>
+  </ul>
+  </div> 
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <div>
+    <img src ="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+      <h4>Aplicacion Tres</h4>
+      <h4>Jesús Emmanuel González Ramírez</h4>
+   </div>
+  </div>
+  </div>
+ <div data-role="page" id="Pagina1" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1> Historia</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div >
+    <p> 1800, es un hecho ampliamente aceptado que la primera bicicleta la inventó en 1817 un tipo llamado Barón Karl von Drais en Alemania. Entre 1818 y 1820, tener un velocípedo se convirtió en una moda que se extendió por Europa occidental y América del Norte y se consideraba un nuevo objeto de moda que había que poseer . Entre 1820 y 1850, el velocípedo sufrió multitud de transformaciones, todas basadas en la idea de un vehículo de tracción humana que seguía tecnologías similares a las del velocípedo. </p>
+    <br>
+     <p> Durante la década de 1860, Pierre Michaux, fundador de la Michaux Company, desarrolló la primera bicicleta de dos ruedas verdaderamente popular y comercialmente exitosa, que contaba con pedales y manivelas giratorias en la rueda delantera para que el ciclista pudiese conducir hacia adelante pedaleando.Aunque en la actualidad China es conocida como la capital mundial de la bicicleta, esta fue introducida por primera vez en la década de 1860 por un funcionario chino llamado Bin Chun, quien, en una visita a París, había visto cómo los velocípedos circulaban por las calles. Habiéndose recientemente encontrado bajo dominio occidental </p>
+    <br>
+     <p>Entre 1869 y 1880, aumentó la demanda de bicicletas que se pudieran utilizar en distancias más largas y a velocidades más rápidas. En la década de 1880, los fabricantes aumentaron el tamaño de la rueda delantera en proporciones espeluznantes. Esta nueva bicicleta con una rueda delantera gigante pasó a conocerse como «penny-farthing», porque de perfil parecía un gran penique británico llevando a un cuarto de penique o «farthing».A pesar de las mejoras, como neumáticos de caucho llenos de aire y frenos, el velocípedo cayó en desgracia al poco tiempo. A finales de la década de 1890, la «bicicleta de seguridad» con las dos ruedas del mismo tamaño, supuso uno de los desarrollos más importantes en la evolución de la bicicleta.</p>
+    <br>
+     <p>Durante este período, la población cambió de gustos y en el mundo occidental la moda de la bicicleta disminuyó dando paso al automóvil, que en aquel momento se consideraba el transporte del futuro. Tras «los locos años 20» vino la Gran Depresión. El mundo sufrió un cambio muy drástico, con una guerra mundial durante los años 30 y 40 y luego la guerra fría de los años 50. Durante los años 50 y 60 el automóvil era el rey, y la mayor parte de las bicicletas que se vendían eran para los niños, no para adultos. </p>
+    <br>
+    <img src="imagenes/imagen_1.jpg" width="300" height= "250">
+    <hr>
+    <h2> Linea De Tiempo </h2>
+    <ul style="list-style:none">
+    <li> 1800-1830 (Invención de la primera bicicleta) </li>
+    <li> 1840-1870 (Tres ruedas para una bicicleta más eficaz) </li>
+    <li> 1880-1910 (Éxito del estilo victoriano) </li>
+    <li> 1920-1950 (El progreso de los coches) </li>
+    <li> 1960-1990 (Boom de la bicicleta) </li> 
+    <li> 2000-actualidad (Ciudades concienciadas con el medioambiente) </li>
+    </ul>
+     <img src="imagenes/imagen_2.jpg" width="300" height= "250">
+ </div>
+ </div>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <div>
+     <img src ="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion Tres, JEGR</h4>
+   </div>
+  </div>
+  
+  <div data-role="page" id="Pagina2" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Medio De Transporte</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div >
+     <p> En países europeos como España, Dinamarca, Polonia, Holanda y Francia,  y en algunos asiáticos como China, la bicicleta es un medio de transporte  muy común entre sus habitantes.  Y es que se cree que alrededor del mundo, 800 millones de bicicletas ruedan cada día, con ventajas no sólo para las personas sino para el cuidado del medio ambiente. </p>
+     <br>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image_Sus01','','imagenes/Imagen_3.jpg',1)"><img src="imagenes/imagen_4.jpg" width="640" height="480" id="Image_Sus01"></a> </div>
+     <br>
+     <hr>
+     <h2>Ventajas para tu salud</h2>
+     <p> El Uso De Una Bicicleta Mejora tu Salud Fisica Y Emocional</p>
+     <ul style=" list-style:none"> 
+      <li> Ayuda al funcionamiento del sistema cardiovascular, tonifica los músculos y mejora la capacidad pulmonar.</li>
+      <li> Reduce los niveles de colesterol en la sangre.</li>
+      <li> Ayuda a mejorar la coordinación motriz.</li>
+      <li> Es un excelente ejercicio aeróbico que combate los riesgos de sufrir sobrepeso y obesidad.</li>
+      <li> Reduce los niveles de estrés y mejora el estado de ánimo.</li>
+      <li> Puede ser una excelente alternativa para unir a las familias en torno al deporte</li>
+      </ul>
+      <hr>
+        <h2> Ventajas para el cuidado del medio ambiente </h2>
+        <p> Una ciudad con alta circulación de bicicletas por sus calles es, definitivamente, una ciudad amigable con el medio ambiente, pues lo ayuda a reducir los niveles de contaminación ambiental y sus niveles de monóxido y dióxido de carbono, hidrocarburos y otras partículas que favorecen la contaminación del aire.
+
+Gracias a estos beneficios es que muchas ciudades en el mundo le apuntan al uso masivo de la bicicleta como alternativa para la movilización de personas. En ciudades como Santiago de Chile, Bogotá, Río de Janeiro, Lima y Medellín, los gobiernos promueven programas de desarrollo de políticas públicas que favorezcan la conducción de bicicletas, como la construcción de ciclorrutas, alquiler de bicicletas públicas y otros novedosos proyectos que han logrado un aumento significativo del uso de los vehículos de dos ruedas en el continente. </p>
+ </div>
+    <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <div>
+     <img src ="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion Tres, JEGR</h4>
+   </div>
+  </div>
+ 
+ 
+ <div data-role="page" id="Pagina3" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>¿Cuantos Tipos De Bicicletas Existen?</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div >
+     <P> Dependiendo del terreno, el tipo de uso o simplemente el gusto personal, cada persona necesita un tipo de bicicleta. Por fortuna, existen muchas clases al servicio de quien quiere disfrutar dando pedales. </P>
+     <h3> Bicicleta de carretera</h3>
+     <p>Este tipo de bicis se caracterizan por sus finas ruedas, lo que las hace aptas para circular por carreteras pavimentadas pero no por caminos menos practicables o por el monte,Ligeras, para ahorrar peso en las subidas, las bicicletas de carretera están entre las más habituales entre quienes practican el ciclismo y son, por supuesto, la principal herramienta de trabajo de los profesionales que corren las principales carreras del panorama internacional.</p>
+     <h3>Bicicleta de montaña</h3>
+     <p>Aunque hoy en día sean probablemente las más vendidas, las mountain bikes son un invento relativamente reciente. No fue hasta los años ochenta de la pasada centuria cuando se generalizaron, en un primer momento para dar satisfacción a los locos de los descensos y de los recorridos por terrenos más escarpados y luego para convertirse en la elección de muchos ciclistas que la usan casi en cualquier circunstancia.</p>
+     <h3>BMX</h3>
+     <p>Las bicis para acrobacias urbanas tienen habitualmente un solo piñón y en muchas ocasiones es fijo, esto es, que mientras la rueda trasera avance los pedales se moverán siempre. Se utilizan en entornos urbanos para superar obstáculos y disfrutar haciendo trucos y posturas extrañas.</p>
+     <h3>Bicicleta híbrida o urbana</h3>
+     <p>Para quienes no quieren una bici tan sensible y nerviosa como la de carretera ni una máquina tan robusta como la de montaña se ha inventado la bicicleta híbrida. Se usa a menudo para pedalear por ciudad, y se caracteriza por montar un cuadro de rigidez intermedia y unas ruedas algo más finas que las de una mountain bike. </p>
+     <h3>Para contrarreloj</h3>
+     <p>Las primas rápidas de la bicicleta de carretera son un invento muy reciente. Hasta los años noventa este tipo de bici no se generalizó entre los ciclistas profesionales, que afrontaban las etapas contra el crono de las grandes vueltas con máquinas convencionales. Un americano, Greg LeMond, contribuyó a popularizarlas tras ganar el Tour de Francia de 1989 por sólo 8 segundos gracias a una bici como éstas. Cuentan con un ligerísimo cuadro que ofrece la mínima resistencia al aire, ruedas finas habitualmente montadas sobre llantas con radios de carbono y un manillar característico en forma de cuernos, con el remate hacia arriba, que se complementa con otras dos manetas en el centro para mejorar la posición.</p>
+     <h3>‘Cruiser’ o playera</h3>
+     <p>Estas bicicletas conservan el sabor de los míticos años cincuenta norteamericanos. Robustas, de gruesas ruedas, con portaequipaje, faros, sillín ancho y diseño retro, están indicadas para el paseo tranquilo o para pedalear hacia el picnic del fin de semana. En los últimos tiempos, la moda de las bicis con aroma añejo las ha vuelto a poner de moda.</p>
+     <h3>Infantil</h3>
+     <p>Más allá de los clásicos triciclos para los más pequeños, hay multitud de modelos para que los niños y las niñas se inicien en el ciclismo, inspirados habitualmente en las bicicletas para mayores. En el mercado se encuentran interesantes modelos sin pedales, indicados para que los chavales aprendan a mantener el equilibrio antes de pasar al siguiente período, pedalear.</p>
+     <h3>Reclinada</h3>
+     <p>Para grandes distancias se han pensado estas máquinas que tanto llaman la atención. Se trata de bicicletas en las que el ciclista pedalea recostado, en muchas ocasiones protegido de los elementos por un sencillo carenado, y capaces de transportar el equipaje. Eso sí: en terrenos muy escarpados o puertos de montaña no son la mejor opción.</p>
+     </div>
+     <!-- Este Div Contiene El Codigo Del Visor De Imagenes -->
+     <div>
+     <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/bici4.jpg" alt="bici4" title="bici4" id="wows1_0"/></li>
+		<li><img src="data1/images/bici1.jpg" alt="bici1" title="bici1" id="wows1_1"/></li>
+		<li><img src="data1/images/bici8.jpg" alt="bici8" title="bici8" id="wows1_2"/></li>
+		<li><img src="data1/images/bici7.jpg" alt="bici7" title="bici7" id="wows1_3"/></li>
+		<li><img src="data1/images/bici6.jpg" alt="bici6" title="bici6" id="wows1_4"/></li>
+		<li><img src="data1/images/bici5.jpg" alt="bici5" title="bici5" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/bici3.jpg" alt="wow slider" title="bici3" id="wows1_6"/></a></li>
+		<li><img src="data1/images/bici2.jpg" alt="bici2" title="bici2" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="bici4"><span><img src="data1/tooltips/bici4.jpg" alt="bici4"/>1</span></a>
+		<a href="#" title="bici1"><span><img src="data1/tooltips/bici1.jpg" alt="bici1"/>2</span></a>
+		<a href="#" title="bici8"><span><img src="data1/tooltips/bici8.jpg" alt="bici8"/>3</span></a>
+		<a href="#" title="bici7"><span><img src="data1/tooltips/bici7.jpg" alt="bici7"/>4</span></a>
+		<a href="#" title="bici6"><span><img src="data1/tooltips/bici6.jpg" alt="bici6"/>5</span></a>
+		<a href="#" title="bici5"><span><img src="data1/tooltips/bici5.jpg" alt="bici5"/>6</span></a>
+		<a href="#" title="bici3"><span><img src="data1/tooltips/bici3.jpg" alt="bici3"/>7</span></a>
+		<a href="#" title="bici2"><span><img src="data1/tooltips/bici2.jpg" alt="bici2"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">jquery slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+     </div>
+ </div>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <div>
+     <img src ="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion Tres, JEGR</h4>
+   </div>
+  </div>
+  
+  <div data-role="page" id="Pagina4" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1> ¿Cuales Son Las Marcas Mas Reconocidas?</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div >
+     <h2> Specialized </h2>
+     <p>Marca norteamericana considerada por muchos como la mejor del mundo (aunque sí se podría decir que es la más mediática). Además de patrocinar a algunos de los atletas más exitosos del mundo en todas las modalidades deportivas en que interviene una bici, hacen bicicletas para todo tipo de usos: carretera, triatlón y montaña tanto para competición como para usos un poco más recreativos, además de tener una gran gama de complementos y vestuario para el ciclista    </p>
+     <h2> Trek</h2>
+     <p>  Esta mítica marca norteamericana de bicicletas lleva varios años siendo la máxima rival de Specialized, pues hacen máquinas muy avanzadas tecnológicamente y además patrocinan a muchos equipos de competición. También hacen bicicletas para todo tipo de usos: carretera, triatlón y montaña, y sus precios no son nada excesivos.    </p>
+     <h2> Merida</h2>
+     <p>Esta empresa taiwanesa es uno de los principales fabricantes de bicicletas del mundo, pues no sólo hace sus propias bicicletas sino que además es uno de los que más cuadros elabora para terceros. Hacen bicicletas de gran calidad tanto de carretera como de triatlón, pero es quizás en su sección de bicis de montaña donde esta marca se gana su pretigio a nivel internacional.   </p>
+     <h2>Scott </h2>
+     <p>Una de las marcas más vanguardistas en todos los segmentos competitivos: montaña, carretera y triatlón. Es suiza y no sólo se dedica a la fabricación y venta de bicicletas, sino que tienen todo tipo de complementos y vestuario para los ciclistas (zapatillas, cascos, etc.) además de dedicarase a otros deportes   </p>
+     <h2>Giant </h2>
+     <p> Es al igual que Merida una marca taiwanesa que a pesar de hacer productos propios, es también de los principales fabricantes de cuadros del mundo para terceros. Tienen bicicletas muy buenas y fiables y destacan tanto en carretera, como en triatlón y bicis de montaña. Tienen una presencia bastante considerable entre los equipos de élite de competición</p>
+     <h2> Cannondale</h2>
+     <p> Esta marca norteamericana es de las más espectaculares del panorama internacional. Sus bicicletas de montaña con la tecnología Lefty (la horquilla sólo tiene un brazo y no dos) y sus bicicletas de carretera ultraligeras y ultra estudiadas por los ingenieros, la consagran sin duda alguna como una de las mejores marcas del mundo. Por si fuera poco hacen de los mejores cuadros de aluminio del mercado</p>
+     </div>
+     <!-- Este Div Contiene El Codigo Del Segundo Visor De Imagenes -->
+     <div>
+     <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/tipo1.jpg" alt="tipo1" title="tipo1" id="wows2_0"/></li>
+		<li><img src="data2/images/tipo2.jpg" alt="tipo2" title="tipo2" id="wows2_1"/></li>
+		<li><img src="data2/images/tipo3.jpg" alt="tipo3" title="tipo3" id="wows2_2"/></li>
+		<li><img src="data2/images/tipo4.jpg" alt="tipo4" title="tipo4" id="wows2_3"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/tipo5.jpg" alt="wow slider" title="tipo5" id="wows2_4"/></a></li>
+		<li><img src="data2/images/tipo6.jpg" alt="tipo6" title="tipo6" id="wows2_5"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="tipo1"><span><img src="data2/tooltips/tipo1.jpg" alt="tipo1"/>1</span></a>
+		<a href="#" title="tipo2"><span><img src="data2/tooltips/tipo2.jpg" alt="tipo2"/>2</span></a>
+		<a href="#" title="tipo3"><span><img src="data2/tooltips/tipo3.jpg" alt="tipo3"/>3</span></a>
+		<a href="#" title="tipo4"><span><img src="data2/tooltips/tipo4.jpg" alt="tipo4"/>4</span></a>
+		<a href="#" title="tipo5"><span><img src="data2/tooltips/tipo5.jpg" alt="tipo5"/>5</span></a>
+		<a href="#" title="tipo6"><span><img src="data2/tooltips/tipo6.jpg" alt="tipo6"/>6</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">jquery slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+     </div>
+ </div>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <div>
+     <img src ="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion Tres, JEGR</h4>
+   </div>
+  </div>
+  
+  
+  <div data-role="page" id="Pagina5" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1> ¿Porque Se Celebra El Dia Mundial De La Bicicleta?</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div >
+     <h2> 19 De Abril Dia Mundial De Las Bicicleta </h2>
+     <p> Una persona se despierta todavía en la oscuridad de su habitación. Es lunes por la mañana y hoy empieza su semana laboral. Una ducha rápida para terminar de desperezarse, un desayuno fugaz. Llaves, cartera, móvil. Ya está lista para enfrentarse al día. Sale de casa y al llegar al portal se acerca a una bicicleta, encadenada todavía, para liberarla y abrirse paso a través de las calles de la ciudad.</p>
+     <br>
+     <p> ¿De qué ciudad? De cualquiera. La silueta de nuestro protagonista, hombre o mujer, puede recortar la Torre Eiffel en París, la Casa Rosada en Buenos Aires, el Templo del Cielo en Pekín o la Catedral de Amberes. Puede que vaya abrigado para combatir el viento que sopla en su cara o puede que vaya con ropa de verano y a un ritmo apaciguado porque el sol ya empieza a calentar. De cualquier manera, esta persona forma parte de una comunidad de mil millones de miembros que, con este sencillo ritual, están contribuyendo a salvar el Planeta de un modo que tal vez ni ellos se imaginan.</p>
+     <br>
+     <p> Por ellos y para todos se celebra el dia 19 de abril, el Día Mundial de la Bicicleta. Tienen motivos de sobra para festejar su elección de medio de transporte y –todavía- mucho por lo que luchar. </p> 
+     <br> 
+     <h3> Da Click En La Imagen Para Mas Información </h3>
+     <a href="https://www.sura.com/blogs" target="_self"><img src="imagenes/Banner1.jpg" width="60%" height="auto">  </a>
+ </div>
+    <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <div>
+     <img src ="res/android/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion Tres, JEGR</h4>
+   </div>
+  </div>
+</body>
+</html>
